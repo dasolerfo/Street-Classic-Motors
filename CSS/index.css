@@ -1,0 +1,223 @@
+:root {
+    --black1: #2E2E2E;
+    --black: #252a34;
+    --dorado: #ffbf00;
+    --white: #eaeaea;
+    --white1: white;
+}
+
+.panell-subtitol {
+    position: relative;
+    background-color: var(--white1);
+    width: 100%;
+    height: auto;
+
+}
+
+.subTitol {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: var(--black);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.descripcio {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.fontNormal {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    line-height: 2.1;
+}
+
+
+/** Sobre nosaltres **/
+.acerca-de {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.acerca-de .info-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.acerca-de .info-container .about-gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.imatge-about {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.img-hover-zoom {
+    width: 30%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    height: 300px;
+    overflow: hidden;
+} 
+
+  
+.img-hover-zoom:hover .imatge-about {
+    transform: scale(1.06);
+}
+
+
+.acerca-de .info-container .about-more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.acerca-de .info-container .about-more button {
+    padding: 12px;
+    font-family: 'Roboto', sans-serif;
+    width: auto;
+    height: auto;
+    background: var(--black1);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: var(--white);
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.acerca-de .info-container .about-more button:hover {
+    background: #3498db;
+}
+
+/** Sobre nosaltres **/
+
+
+/** TOP 10 COTXES **/
+
+.our-projects{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../RESOURCES/IMAGES/cotxesmain/motor1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+.our-projects .deg-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+}
+.our-projects .ejeZproject{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.our-projects .container-project{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+.our-projects .container-project .project-title{
+    border: 5px solid transparent;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.our-projects .container-project .project-title h2{
+    font-size: 60px;
+    color: var(--white1);
+    font-weight: lighter;
+    
+}
+.our-projects .container-project .project-title hr{
+    background: var(--white1);
+    width: 80%;
+    margin: 10px auto;
+}
+.our-projects .container-project #project-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+.our-projects .container-project #project-img img{
+    width: 380px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .fontNormal {
+        font-size: 17px;
+        line-height: 1.8;
+    }
+
+    .descripcio {
+        width: 95%;
+    }
+
+    .subTitol {
+        font-size: 28px;
+    }
+
+    .img-hover-zoom {
+        height: auto;
+        width: 90%;
+    }
+
+    .imatge-about {
+        height: auto;
+    }
+
+    .our-projects .container-project #project-img img{
+        width: 95%;
+    }
+
+    .our-projects .container-project .project-title{
+        border: 5px solid transparent;
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+
+    .our-projects .container-project .project-title h2{
+        font-size: 35px;
+    }
+
+
+
+
+}
