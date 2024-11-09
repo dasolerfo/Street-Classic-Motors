@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="cat">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/capsalera.css">
+    <link rel="stylesheet" href="./CSS/bannerIndex.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="./JAVASCRIPT/menu.js" defer></script>
+    <title>Cotxes</title>
+</head>
+
+<body>
+    <div class="capsalera">
+        <img id="logo1" src="./RESOURCES/IMAGES/logo/logo.png">
+        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+        <nav class="menu">
+            <a href="./index.html" class="botoCapsalera">INICI</a>
+            <a href="./HTML/cataleg.html" class="botoCapsalera">CATÀLEG</a>
+            <a href="../Qui som/Qui som.html" class="botoCapsalera">QUI SOM?</a>
+        </nav>
+    </div>
+
+    <img src="./RESOURCES/IMAGES/slider/slider2.jpg" class="invisiblee">
+    <img src="./RESOURCES/IMAGES/slider/slider3.jpg" class="invisiblee">
+    <img src="./RESOURCES/IMAGES/slider/slider4.jpg" class="invisiblee">
+    <section class="banner">
+        <div class="banner-content">
+            <h1> Benvinguts a Street Classic Motors</h1>
+            <a href="../catalogo/catalogo.html">Veure cotxes</a>
+        </div>
+    </section>
+
+    <div class="panell-subtitol">
+        <h1 class="subTitol"> The world of Street Classic Motors</h1>
+        <div class="descripcio">
+            <p class="fontNormal">
+                Descobreix Street Classic Motors com a Marca. Aquí podreu trobar informació sobre models de
+                col·leccionisme, preus i dates de subhastes dels nostres clàssics. Si realment sents la grandesa dels
+                cotxes mes icònics de l’historia, et trobes en el lloc idoni.
+            </p>
+        </div>
+    </div>
+
+    <section class="acerca-de">
+        <div class="info-container">
+            <div class="about-gallery">
+                <div class="img-hover-zoom"><img class="imatge-about"
+                        src="./RESOURCES/IMAGES/cotxesmain/coche_lista1.jpg" alt=""></div>
+                <div class="img-hover-zoom"><img class="imatge-about"
+                        src="./RESOURCES/IMAGES/cotxesmain/coche_lista2.jpg" alt=""></div>
+                <div class="img-hover-zoom"><img class="imatge-about"
+                        src="./RESOURCES/IMAGES/cotxesmain/coche_lista3.jpg" alt=""></div>
+            </div>
+            <div class="about-more"><button onclick="window.location.href='../Qui som/Qui som.html';">Llegir
+                    més</button>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <section class="our-projects">
+        <div class="deg-background"></div>
+        <div class="ejeZproject">
+            <div class="container-project">
+                <div class="project-title">
+                    <h2> 9 COTXES MÉS VENUTS DEL MES</h2>
+                    <hr>
+                </div>
+
+                <div id="project-img">
+                    <script>
+                        window.addEventListener('DOMContentLoaded', () => {
+                            const gallery = document.getElementById('project-img');
+                            omplirDeImatges(gallery, '', 10);
+                        });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="deg-footer"></div>
+        <div class="ejeZfooter">
+            <div class="footer-text">
+                <p> &copy; Daniel Soler Fontanet | Tots els drets reservats :) </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/743cbbc3e4.js" crossorigin="anonymous"></script>
+
+    <!-- AQUI IRÁ EL SUB FOOTER-->
+
+    <footer>
+        <div class="principal-content">
+            <div class="left box">
+                <h2>Sobre nosaltres</h2>
+                <div class="content">
+                    <p>Descobreix Street Classic Motors com a Marca. Aquí podreu trobar informació sobre models de
+                        col·leccionisme, preus i dates de subhastes dels nostres clàssics. Si realment sents la grandesa
+                        dels cotxes mes icònics de l’historia, et trobes en el lloc idoni.</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-youtube"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="center box">
+                <h2>Adreça</h2>
+                <div class="content">
+                    <div class="phone">
+                        <span class="text">Carrer de la Torre Bovera, Sant Andreu de la Barca, Barcelona</span>
+                    </div>
+                    <div class="phone">
+                        <span class="text">+34 874892745</span>
+                    </div>
+                    <div class="phone">
+                        <span class="text">streetclassicmotors@outlooks.es</span>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img class="foto" src="./RESOURCES/IMAGES/logo/logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

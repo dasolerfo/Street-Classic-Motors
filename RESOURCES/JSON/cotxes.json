@@ -1,0 +1,65 @@
+{
+    "cotxes": [
+      {
+        "nom": "Ferrari Caballito",
+        "descripcio": "És un Ferrari molt ràpid, ideal per fer curses de rectes llargues. Va ser el primer Ferrari construït per a la competició.",
+        "any": 1977,
+        "imatge": "cotxe1.jpg"
+      },
+      {
+        "nom": "Lamborghini Countach",
+        "descripcio": "El Lamborghini Countach va marcar una època amb el seu disseny angular i futurista. Un cotxe icònic dels anys 80.",
+        "any": 1982,
+        "imatge": "cotxe2.jpg"
+      },
+      {
+        "nom": "Porsche 911 Turbo",
+        "descripcio": "El Porsche 911 Turbo és un clàssic amb un motor potent, perfecte per a aquells que busquen velocitat i estil.",
+        "any": 1975,
+        "imatge": "cotxe3.jpg"
+      },
+      {
+        "nom": "Chevrolet Corvette Stingray",
+        "descripcio": "Un muscle car americà amb molta història. El Corvette Stingray dels anys 70 és un cotxe de col·leccionista.",
+        "any": 1973,
+        "imatge": "cotxe4.jpg"
+      },
+      {
+        "nom": "BMW M1",
+        "descripcio": "El BMW M1 és conegut per la seva maniobrabilitat i el seu disseny distintiu. Un dels models més apreciats per col·leccionistes.",
+        "any": 1978,
+        "imatge": "cotxe5.jpg"
+      },
+      {
+        "nom": "Mercedes-Benz 450 SLC",
+        "descripcio": "Aquest coupé de Mercedes-Benz combina elegància i rendiment, molt popular durant els anys 70.",
+        "any": 1979,
+        "imatge": "cotxe6.jpg"
+      },
+      {
+        "nom": "Ford Capri RS",
+        "descripcio": "El Ford Capri va ser el cotxe esportiu assequible d'Europa, conegut per les seves curses en els circuits de rallies.",
+        "any": 1983,
+        "imatge": "cotxe7.jpg"
+      },
+      {
+        "nom": "Jaguar XJ-S",
+        "descripcio": "Un coupé britànic de luxe que combina confort i rendiment. El Jaguar XJ-S és una peça de col·leccionista dels anys 80.",
+        "any": 1987,
+        "imatge": "cotxe8.jpg"
+      },
+      {
+        "nom": "Mazda RX-7",
+        "descripcio": "El Mazda RX-7 va guanyar popularitat amb el seu motor rotatiu únic i una dinàmica de conducció esportiva.",
+        "any": 1991,
+        "imatge": "cotxe9.jpg"
+      },
+      {
+        "nom": "Nissan 300ZX",
+        "descripcio": "Aquest Nissan va oferir un gran rendiment als entusiastes dels esportius durant els anys 90. Va ser un dels més avançats tecnològicament.",
+        "any": 1994,
+        "imatge": "cotxe10.jpg"
+      }
+    ]
+  }
+  
