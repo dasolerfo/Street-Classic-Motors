@@ -1,0 +1,321 @@
+:root {
+    --black1: #2E2E2E;
+    --black: #252a34;
+    --dorado: #ffbf00;
+    --white: #eaeaea;
+    --white1: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+textarea,
+select {
+    font: 17px Calibri;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=button] {
+    font: 17px Calibri;
+    width: auto;
+    float: right;
+    cursor: pointer;
+    padding: 7px;
+}
+
+/** Form **/
+.form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../RESOURCES/IMAGES/cotxesmain/motor1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.form .deg-form {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.form .ejeZform {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.form .form-content {
+    width: 90%;
+    padding-top: 100px;
+    margin: auto;
+}
+
+.form .form-content .form-title {
+    width: 50%;
+    margin: auto;
+
+    padding: 15px;
+}
+
+.form .form-content .form-title h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.form .form-content .form-title hr {
+    width: 80%;
+    margin: auto;
+}
+
+.form .form-content .formulario-content {
+    width: 70%;
+    background: #fff;
+    border-radius: 20px;
+    border: 2px solid var(--black1);
+    margin: 50px auto;
+    padding: 30px;
+}
+
+.form .form-content .formulario-content #formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form .form-content .formulario-content #formulario label {
+    text-align: center;
+    color: var(--black);
+    font-size: 22px;
+    margin: 30px 0px 10px 0px;
+}
+
+.form .form-content .formulario-content #formulario input {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border: 2px solid var(--black1);
+    border-radius: 20px;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    color: var(--black);
+}
+
+.form .form-content .formulario-content #formulario textarea {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    border: 2px solid var(--black1);
+    border-radius: 20px;
+    outline: none;
+    font-size: 15px;
+    color: var(--black);
+    padding: 20px;
+}
+
+.form .form-content .formulario-content #formulario .send {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.form .form-content .formulario-content #formulario .send button {
+    width: 150px;
+    height: 40px;
+    background: var(--black1);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form .form-content .formulario-content #formulario .send button:hover {
+    background: var(--dorado);
+}
+
+
+.form .form-content .footer-text {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 2px solid #fff;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .form-content .form-text p {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+/** Form **/
+
+/** Canviar **/
+
+.izquierdasom {
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    float: left;
+    height: 875px;
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 150px;
+    position: relative;
+
+}
+
+.derechasom {
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    float: right;
+    height: 875px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+.titulosom {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 50px;
+}
+
+.textosom {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 320px;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+
+}
+
+.img2som {
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.img1som {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    height: 415px;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.tituloayuda {
+    color: white;
+}
+
+.titulodistribucio {
+    width: 100%;
+    text-align: center;
+    height: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.titulodistr {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.textodistrisom {
+    height: 225px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 15px;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+}
+
+.imgsom3 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+
+    position: relative;
+
+}
+
+.imgsom1 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+
+}
+
+.imgsom2 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+
+@media (max-width: 718){
+    
+}
