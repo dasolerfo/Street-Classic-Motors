@@ -1,11 +1,13 @@
-* {
-    box-sizing: border-box;
+:root {
+    --black1: #2E2E2E;
+    --black: #252a34;
+    --dorado: #ffbf00;
+    --white: #eaeaea;
+    --white1: white;
 }
 
-div {
-    padding: 10px;
-    background-color: #f6f6f6;
-    overflow: hidden;
+* {
+    box-sizing: border-box;
 }
 
 input[type=text],
@@ -171,3 +173,149 @@ input[type=button] {
 }
 
 /** Form **/
+
+/** Canviar **/
+
+.izquierdasom {
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    float: left;
+    height: 875px;
+    display: inline-block;
+    margin: 1px;
+    padding: 1px;
+    margin-top: 150px;
+    position: relative;
+
+}
+
+.derechasom {
+    font-family: 'Roboto', sans-serif;
+    width: 48%;
+    float: right;
+    height: 875px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+.titulosom {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    height: 50px;
+}
+
+.textosom {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 320px;
+    float: right;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+
+}
+
+.img2som {
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+.img1som {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    height: 415px;
+    align-items: center;
+    position: relative;
+    padding-left: 30px;
+
+}
+
+.tituloayuda {
+    color: white;
+}
+
+.titulodistribucio {
+    width: 100%;
+    text-align: center;
+    height: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.titulodistr {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 2.3rem;
+    color: #282828;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+
+}
+
+.textodistrisom {
+    height: 225px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 15px;
+    position: relative;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact {
+    color: white;
+}
+
+.imgsom3 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+
+    position: relative;
+
+}
+
+.imgsom1 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+
+}
+
+.imgsom2 {
+    border: 1px solid;
+    width: 180px;
+    height: 380px;
+    object-fit: cover;
+    margin: 10px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+}
+
+@media (max-width: 718){
+    
+}
